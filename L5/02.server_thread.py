@@ -11,7 +11,7 @@ def main():
 # fungsi saat server dijalankan
 def start_server():
     # tentukan IP server
-    HOST = "192.168.1.8"
+    HOST = "192.168.1.11"
     
     # tentukan port server
     PORT = 55555
@@ -90,7 +90,7 @@ def client_thread(connection, ip, port, max_buffer_size = 4096):
         else:
             # tampilkan pesan dari client
             
-            print(decoded_input)
+            print("client IP "+ ip + ":" + str(port) +" = "+ decoded_input)
 # panggil fungsi utama
 if __name__ == "__main__":
     main()

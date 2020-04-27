@@ -7,7 +7,7 @@ def main():
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     # tentukan IP server target
-    host = "192.168.1.8"
+    host = "192.168.1.11"
     
     # tentukan por server
     port = 55555
